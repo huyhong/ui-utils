@@ -218,7 +218,7 @@ angular.module('ui.mask', [])
           }
 
           function getMaskFormatChar(i) {
-            var maskFormat = iAttrs.maskFormat;
+            var maskFormat = iAttrs.uiMaskFormat;
 
             if (typeof maskFormat !== 'undefined' && maskFormat[i]) {
               return maskFormat[i];
